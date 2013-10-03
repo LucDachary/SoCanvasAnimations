@@ -1,28 +1,29 @@
+*{
+	padding:0;
+	margin:0;
+}
 body{
 	font-family:Calibri, sans-serif;
 	font-size:14px;
-	width:800px;
-	margin:auto;
+	background-color:black;
 }
 
 h1, h2, h3, h4, h5, h6{ 
 	text-align:center; 
 	color: rgb(177, 202, 0); 
 	text-shadow: -2em -0.5em 2px #DDDDDD;
+
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	padding:1em;
+	z-index:1;
 }
 
-#mycanvas{
-	border:1px gray dashed;
-	border-radius:1px;
-	margin:auto;
-	display:block;
+#matrix{
+	position:fixed;
 }
-
-#operations{
-	list-style-type: none;
-	padding: 0;
-}
-
 /*
 table{
 	width: 100%;
