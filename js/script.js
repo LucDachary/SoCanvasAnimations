@@ -76,9 +76,7 @@ function step()
 	 * transparent, donc il est 100% opaque.
 	 */
 	ypositions.map(function (y, i){
-		var color = colors[Math.floor(Math.random() * 3)];
-
-		ctx.font = '10pt Tahoma';
+		ctx.font = "10pt Tahoma";
 		ctx.textAlign = "start";
 		ctx.textBaseline = "top";
 
